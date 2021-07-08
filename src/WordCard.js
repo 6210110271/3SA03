@@ -56,9 +56,6 @@ export default function WordCard(props) {
 
             <div style=
                 {{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center"
                     width: 300px;
                     height: 300px;
                 }}
