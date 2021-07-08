@@ -53,12 +53,14 @@ export default function WordCard(props) {
                         <CharacterCard value={c} key={i} activationHandler={activationHandler} attempt={state.attempt} />)
                 }
             </div>
-            <div style=
+
+            <div style="background-color:coral;">RED<
                 {{
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center"
-                }}>
+                }}
+                >
                 {'รอบที่ ' + state.attempt}
             </div>
             <div className='font' style=
