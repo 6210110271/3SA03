@@ -65,12 +65,7 @@ export default function WordCard(props) {
                 {'รอบที่ ' + state.attempt}
             </div>
 
-            <div id="main">
-  <div style="background-color:coral;">RED</div>
-  <div style="background-color:lightblue;">BLUE</div>  
-  <div style="background-color:lightgreen;">Green div with more content.</div>
-            </div>
-
+            
             <div className='font' style=
                 {{
                     display: "flex",
