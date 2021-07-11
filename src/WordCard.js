@@ -59,7 +59,7 @@ export default function WordCard(props) {
                 {'รอบที่ ' + state.attempt}
             </div>
             <br></br>
-            <center><img src="https://m.thaiware.com/upload_misc/software/2018_10/thumbnails/14085_1810031015214z.png"/></center>
+            <center><img src="https://www.pinclipart.com/picdir/big/195-1959825_animated-cute-filly-rarity-safe-scrunchy-face-rarity.png"/></center>
 
             <center><div>
                 {
