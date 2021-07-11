@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #90ffe3;
 }
 
 .App-logo {
@@ -28,7 +29,12 @@
   color: #61dafb;
 }
 
+.congrade {
+  font-size: 2em;
+}
+
 .card {
+  background-color: aliceblue;
   display: inline-block;
   text-align: center;
   width: 3em;

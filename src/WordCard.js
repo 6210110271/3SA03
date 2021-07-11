@@ -53,18 +53,20 @@ export default function WordCard(props) {
                     justifyContent: "center",
                     alignItems: "center"
                 }}
+                className="congrade"
                 >
 
                 {'รอบที่ ' + state.attempt}
             </div>
+            <br></br>
+            <center><img src="https://m.thaiware.com/upload_misc/software/2018_10/thumbnails/14085_1810031015214z.png"/></center>
 
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.picupload.org%2Fhello-kitty%2F&psig=AOvVaw2ej6nbr_F2DnmeLostICBi&ust=1626085083130000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNiW9IDl2vECFQAAAAAdAAAAABAD"/>
-            <div>
+            <center><div>
                 {
                     state.chars.map((c, i) =>
                         <CharacterCard value={c} key={i} activationHandler={activationHandler} attempt={state.attempt} />)
                 }
-            </div>
+            </div></center>
 
         
             
@@ -76,7 +78,7 @@ export default function WordCard(props) {
                 }}>
                 {state.guess}
             </div>
-            
+            <br></br>
             
             <div className='congrade' style=
                 {{
@@ -87,14 +89,14 @@ export default function WordCard(props) {
                 {congrade}
             </div>
 
-            <div onClick={resetWord} className='button' style=
+           <center> <div onClick={resetWord} className='card' style=
                 {{
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
                 Reset
-            </div>
+            </div></center>
         </div>
     );
 }
