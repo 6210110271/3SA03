@@ -47,14 +47,7 @@ export default function WordCard(props) {
 
     return (
         <div >
-            <div>
-                {
-                    state.chars.map((c, i) =>
-                        <CharacterCard value={c} key={i} activationHandler={activationHandler} attempt={state.attempt} />)
-                }
-            </div>
-
-            <div style=
+                <div style=
                 {{
                     display: "flex",
                     justifyContent: "center",
@@ -65,6 +58,14 @@ export default function WordCard(props) {
                 {'รอบที่ ' + state.attempt}
             </div>
 
+            <div>
+                {
+                    state.chars.map((c, i) =>
+                        <CharacterCard value={c} key={i} activationHandler={activationHandler} attempt={state.attempt} />)
+                }
+            </div>
+
+        
             
             <div className='font' style=
                 {{
