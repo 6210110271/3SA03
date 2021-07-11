@@ -58,6 +58,7 @@ export default function WordCard(props) {
                 {'รอบที่ ' + state.attempt}
             </div>
 
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.picupload.org%2Fhello-kitty%2F&psig=AOvVaw2ej6nbr_F2DnmeLostICBi&ust=1626085083130000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNiW9IDl2vECFQAAAAAdAAAAABAD"/>
             <div>
                 {
                     state.chars.map((c, i) =>
